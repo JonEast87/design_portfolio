@@ -1,5 +1,6 @@
 import "./App.css";
-import Education from "./components/Education";
+import Pitch from "./components/Pitch";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
@@ -9,8 +10,9 @@ function App() {
     <>
       <Nav />
       <Header />
-      <Education />
+      <Pitch />
       <Portfolio />
+      <Footer />
     </>
   )
 }
